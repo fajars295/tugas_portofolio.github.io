@@ -1,0 +1,343 @@
+*{
+    outline: none;
+}
+html, body{
+    background:#7FFF00;
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    height:100%;
+    font-family: "Open sans";
+}
+.tengah{
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top:35%;
+    transform: translate(-67%,-50%);
+}
+
+#intro #text {
+    font-size: 70px;
+    width: 10.5em;
+    height: 1.5em;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-40%, -50%);
+}
+
+#intro #intro-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-70%, -50%);
+}
+
+#intro #intro-button #start {
+    font-size: 15px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 125px;
+    height: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+#menu {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    margin: 5px 0px;
+    text-align: right;
+    display: none;
+}
+
+#menu ul li a {
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul li a:hover {
+    border-left:3px solid black;
+    padding-left:5px;
+}
+
+#menu ul li.active a {
+    border-bottom:3px solid black;
+}
+
+#menu ul li.active a:hover {
+    border-left:none;
+}
+
+.container-content{
+    display: none;
+}
+
+#profil img{   
+    margin: 180px 0px 0px 60px;
+    border: 10px solid #f1f1f1;
+    border-radius: 3px;
+    width: 400px;
+}
+
+h3.title{
+    position: absolute;
+    top: -20px;
+    left: 520px;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+#profil div{   
+    width: 650px;
+    position: absolute;
+    top: 160px;
+    left: 530px;
+}
+
+#pendidikan {
+    margin-left: 70px;
+}
+#pendidikan .members {
+    float: left;
+    margin: 0px 10px;
+    background: white;
+    padding: 5px 5px 15px 5px;
+    border-radius: 3px;
+}
+
+#pendidikan .members.top240{
+    margin-top: 250px; 
+}
+#pendidikan .members.top170{
+    margin-top: 170px;
+}
+
+#pendidikan .members img {
+    width: 230px;
+}
+
+#pendidikan .members h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 5px 0px 2px 0px;
+}
+
+#pendidikan .members span {
+    font-size: 12px;
+    font-style: italic;
+}
+#pengalaman {
+    margin-left: 20px;
+}
+#pengalaman .members {
+    float: left;
+    margin: 0px 10px;
+    background: white;
+    padding: 5px 5px 15px 5px;
+    border-radius: 3px;
+}
+
+#pengalaman .members.top240{
+    margin-top: 250px; 
+}
+#pengalaman .members.top170{
+    margin-top: 170px;
+}
+#pengalaman .members h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 5px 0px 2px 0px;
+}
+
+#pengalaman .members span {
+    font-size: 12px;
+    font-style: italic;
+}
+@media screen and (max-device-width: 480px) {
+
+    *{
+        outline: none;
+    }
+    html, body{
+        background:#7FFF00;
+        margin:0px;
+        padding:0px;
+        overflow:hidden;
+        height:100%;
+        font-family: "Open sans";
+    }
+    .tengah{
+        position: absolute;
+        font-size: 50px;
+        left: 60%;
+        top:35%;
+        transform: translate(-67%,-50%);
+    }
+    
+    #intro #text {
+        font-size: 70px;
+        width: 10.5em;
+        height: 1.5em;
+        position: absolute;
+        left: 60%;
+        top: 30%;
+        transform: translate(-40%, -50%);
+    }
+    
+    #intro #intro-button {
+        position: absolute;
+        left: 55%;
+        top: 45%;
+        transform: translate(-40%, -50%);
+    }
+    
+    #intro #intro-button #start {
+        font-size: 15px;
+        background: none;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+        width: 125px;
+        height: 40px;
+        display: none;
+        cursor: pointer;
+    }
+    
+    #menu {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    
+    #menu ul {
+        list-style: none;
+    }
+    
+    #menu ul li {
+        margin: 5px 0px;
+        text-align: right;
+        display: none;
+    }
+    
+    #menu ul li a {
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+    
+    #menu ul li a:hover {
+        border-left:3px solid black;
+        padding-left:5px;
+    }
+    
+    #menu ul li.active a {
+        border-bottom:3px solid black;
+    }
+    
+    #menu ul li.active a:hover {
+        border-left:none;
+    }
+    
+    .container-content{
+        display: none;
+    }
+    
+    #profil img{   
+        margin: 180px 0px 0px 60px;
+        border: 10px solid #f1f1f1;
+        border-radius: 3px;
+        width: 400px;
+    }
+    
+    h3.title{
+        position: absolute;
+        top: -20px;
+        left: 520px;
+        font-size: 80px;
+        text-transform: uppercase;
+    }
+    
+    #profil div{   
+        width: 650px;
+        position: absolute;
+        top: 160px;
+        left: 530px;
+    }
+    
+    #pendidikan {
+        margin-left: 70px;
+    }
+    #pendidikan .members {
+        float: left;
+        margin: 0px 10px;
+        background: white;
+        padding: 5px 5px 15px 5px;
+        border-radius: 3px;
+    }
+    
+    #pendidikan .members.top240{
+        margin-top: 250px; 
+    }
+    #pendidikan .members.top170{
+        margin-top: 170px;
+    }
+    
+    #pendidikan .members img {
+        width: 230px;
+    }
+    
+    #pendidikan .members h3 {
+        font-size: 17px;
+        font-weight: 600;
+        margin: 5px 0px 2px 0px;
+    }
+    
+    #pendidikan .members span {
+        font-size: 12px;
+        font-style: italic;
+    }
+    #pengalaman {
+        margin-left: 20px;
+    }
+    #pengalaman .members {
+        float: left;
+        margin: 0px 10px;
+        background: white;
+        padding: 5px 5px 15px 5px;
+        border-radius: 3px;
+    }
+    
+    #pengalaman .members.top240{
+        margin-top: 250px; 
+    }
+    #pengalaman .members.top170{
+        margin-top: 170px;
+    }
+    #pengalaman .members h3 {
+        font-size: 17px;
+        font-weight: 600;
+        margin: 5px 0px 2px 0px;
+    }
+    
+    #pengalaman .members span {
+        font-size: 12px;
+        font-style: italic;
+    }
+    }
